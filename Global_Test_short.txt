@@ -1,0 +1,25 @@
+Scores:		match =  1 , mismatch =  -2 , h =  -5 , g =  -2 
+
+Sequence 1 = "s1", length =  125  characters
+Sequence 2 = "s2", length =  111  characters
+
+s1    1     ACATGCTACACGTATCCGATACCCCGTAACCGATAACGATACACAGACCTCGTACGCTTG   60
+            |||||| ||||   ||||||||||||||||||||||||||||| ||||||||||||||||
+s2    1     ACATGCGACACTACTCCGATACCCCGTAACCGATAACGATACAGAGACCTCGTACGCTTG   60 
+
+s1    61    CTACAACGTACTCTATAACCGAGAACGATTGACATGCCTCGTACACATGCTACACGTACT   120
+            |||           ||||||||||||||||||||| |||||||||   ||||||||||||
+s2    61    CTA-----------ATAACCGAGAACGATTGACATTCCTCGTACA---GCTACACGTACT   106 
+
+s1    121   CCGAT   125
+            |||||
+s2    107   CCGAT   111 
+
+
+Report:
+
+Global optimal score =  55 
+
+Number of: matches =  105 , mismatches =  6 , gaps =  14 , opening gaps =  2 
+
+Identities =  105/125  (84%),  Gaps = 14/125  (11%)
